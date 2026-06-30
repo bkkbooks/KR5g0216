@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0216/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0216/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶二十四生圖經
+  date: '2015-08-29 03:00:16.791756'
+  source:
+    repository: kanripo
+    path: KR5g0216
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0216_000-HFL.yaml, hash: 'sha256:bc1ee88e30180436087b81468304a6565ef0a4da45fca6de4ff21b5bd93e2ba2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0216_000-HFL.markers.yaml, hash: 'sha256:a6a3afd38d2a4a8aa4b681110ba2f1fb95728560d8ad63a82def53952ca0ece2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0216_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 10149
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:0e9d645eed76d2279bc9f14a5de4636192b7595ebd76f5e7da7ead53e9eff2fa
